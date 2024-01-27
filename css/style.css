@@ -71,6 +71,33 @@ a {
     box-sizing: border-box;
 }
 
+/****** Menu ***********/
+nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    
+}
+
+
+.logo {
+    max-width: 100px;
+}
+
+.optionsmenu {
+
+}
+
+/****** Premiere Section ***********/
+.premieresection {
+    
+}
+
+
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
