@@ -90,6 +90,12 @@ a {
     gap: 20px;
 }
 
+.nav-links-heb:hover, .nav-links-act:hover {
+    text-decoration: overline;
+    color: blue;
+}
+
+
 .logo {
     max-width: 100px;
 }
@@ -152,6 +158,26 @@ a {
 
 .populaires-cards .card-rating {
     margin-bottom: 5px;
+}
+
+
+
+
+/****** Footer ***********/
+
+.piedpage {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content:flex-start;
+    align-items: left;
+    text-align: left;
+    padding: 20px;
+    margin-top: 30px;
+    
+}
+
+.div-a-propos, .div-nos-hebergements, .div-assistance {
+    width: 33%;
 }
 
 
