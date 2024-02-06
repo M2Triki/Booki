@@ -64,14 +64,23 @@ a {
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    height: 79px;
+}
+
+.section-logo {
+    padding: 30px 50px 30px 50px;
+}
+
+.logo {
+    max-width: 61px;
 }
 
 .navbar .nav-links ul {
     display: flex;
-    gap: 20px;
+    gap: 68px;
+    width: 344px;
     text-align: center;
-    padding: 0;
+    padding: 0px 50px 0px 50px;
     margin: 0;
 }
 
@@ -79,11 +88,6 @@ a {
     border-top: 3px solid #0065FC;
     padding: 0;
     margin: 0;
-}
-
-
-.logo {
-    max-width: 61px;
 }
 
 i {
@@ -98,7 +102,6 @@ i {
     height: 49px;
     border-radius: 15px;
     border: 1px solid #F2F2F2;
-    gap: 24px;
     align-items: center;
     
     margin-top: 20px;
@@ -127,6 +130,7 @@ i {
     font-size: 18px;
     font-weight: 700;
     width: 100%;
+    text-align: center;
 
     border: none;
     outline: none;
@@ -279,27 +283,38 @@ i {
 
 
 /****** Activités Marseille ***********/
+.section-activites-marseille {
+    padding: 30px;
+    gap: 30px;
+
+    margin-top: 30px;
+}
+
 .activites-marseille {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-between;
+    gap: 30px;
+
+    margin-top: 30px;
 }
 
 .card-activites {
     height: 439px;
-    width: 297px;
+    width: 297.5px;
     border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
 .card-activites img {
     height: 380px;
-    width: auto;
+    width: 297.5px;
     border-radius: 20px 20px 0px 0px;
 }
 
-.title-activites {
-    font-size: 16px;
-    padding: 20px 19px 20px 19px;
+.card-activites h3 {
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
 }
 
 
@@ -308,9 +323,6 @@ i {
 .piedpage {
     background-color: #F2F2F2;
     display: flex;
-    justify-content:flex-start;
-    align-items: left;
-    text-align: left;
     padding: 20px;
     margin-top: 30px;
     
