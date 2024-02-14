@@ -200,6 +200,17 @@ i {
     margin-bottom: 20px;
 }
 
+.infobar-icon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+}
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
